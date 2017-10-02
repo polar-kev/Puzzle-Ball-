@@ -106,4 +106,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   token: {fileID: 0}
-  soundEffect: {fileID: 8300000, guid: 2a227bd6b2ae344d2ae6092c78741c0c, type: 3}
+  switchGood: {fileID: 2100000, guid: f46a0dea3e6514002b609e64c95d2c73, type: 2}
+  switchBad: {fileID: 2100000, guid: 366cd0ff20794424694e94dc6735fb55, type: 2}
+  switchNormal: {fileID: 2100000, guid: 44a91b6cc46804155b512897f7958db1, type: 2}
+  goodSound: {fileID: 8300000, guid: 2a227bd6b2ae344d2ae6092c78741c0c, type: 3}
+  badSound: {fileID: 8300000, guid: 4ddf8bb089f3e43a18f6082453358bd5, type: 3}

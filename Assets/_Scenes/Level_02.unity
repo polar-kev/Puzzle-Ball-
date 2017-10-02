@@ -300,6 +300,16 @@ Prefab:
       propertyPath: token
       value: 
       objectReference: {fileID: 646241583}
+    - target: {fileID: 114613696178391578, guid: 09766ae11582a44959e41b76fc21b3fa,
+        type: 2}
+      propertyPath: switchGood
+      value: 
+      objectReference: {fileID: 2100000, guid: f46a0dea3e6514002b609e64c95d2c73, type: 2}
+    - target: {fileID: 114613696178391578, guid: 09766ae11582a44959e41b76fc21b3fa,
+        type: 2}
+      propertyPath: goodSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 2a227bd6b2ae344d2ae6092c78741c0c, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 09766ae11582a44959e41b76fc21b3fa, type: 2}
   m_IsPrefabParent: 0

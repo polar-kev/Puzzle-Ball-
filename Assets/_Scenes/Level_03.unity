@@ -250,10 +250,30 @@ Prefab:
         type: 2}
       propertyPath: wall
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1826446278}
     - target: {fileID: 114131256635566908, guid: 19e395fd37f8b44e3872297fc3c2bb74,
         type: 2}
       propertyPath: isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114131256635566908, guid: 19e395fd37f8b44e3872297fc3c2bb74,
+        type: 2}
+      propertyPath: token
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114131256635566908, guid: 19e395fd37f8b44e3872297fc3c2bb74,
+        type: 2}
+      propertyPath: goodSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 2a227bd6b2ae344d2ae6092c78741c0c, type: 3}
+    - target: {fileID: 114131256635566908, guid: 19e395fd37f8b44e3872297fc3c2bb74,
+        type: 2}
+      propertyPath: switchGood
+      value: 
+      objectReference: {fileID: 2100000, guid: f46a0dea3e6514002b609e64c95d2c73, type: 2}
+    - target: {fileID: 114131256635566908, guid: 19e395fd37f8b44e3872297fc3c2bb74,
+        type: 2}
+      propertyPath: makeAppear
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -466,7 +486,7 @@ Prefab:
     - target: {fileID: 65600331490639080, guid: d05a9362c92db453f93ae7c9ed4232a1,
         type: 2}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d05a9362c92db453f93ae7c9ed4232a1, type: 2}
@@ -831,6 +851,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d6e0c77c0ab734ee4b4c4750c4b0f09b, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1826446278 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114592620315146786, guid: d05a9362c92db453f93ae7c9ed4232a1,
+    type: 2}
+  m_PrefabInternal: {fileID: 731644418}
+  m_Script: {fileID: 11500000, guid: b39c9ea37d76d47828907951b138fe98, type: 3}
 --- !u!114 &1864008604 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114018864395041836, guid: e58befb28da40431eb5796b28449da1f,

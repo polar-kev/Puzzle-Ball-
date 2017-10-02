@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MakerMobile : MonoBehaviour {
-	public static int count;
 	public AudioClip ding;
+	public static int count = 0;
+
 	private LevelManager levelmanager;
 
 	// Use this for initialization

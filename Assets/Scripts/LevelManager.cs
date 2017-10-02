@@ -36,6 +36,9 @@ public class LevelManager : MonoBehaviour {
 	public void LoadNextLevel ()
 	{
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+		CylinderSwitch.resetSwitchCount();
+		CubeSwitch.resetSwitchCount();
+		print("Switch count reset");
 	}
 
 
