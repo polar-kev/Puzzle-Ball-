@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pickup
+  - Obstacle
+  - IgnoreCollision
+  - LowerBound
   layers:
   - Default
   - TransparentFX
